@@ -19,6 +19,10 @@ abShapeGetBounds(const AbShape *s, const Vec2 *centerPos, Region *bounds)
 int
 abShapeCheck(const AbShape *s, const Vec2 *centerPos, const Vec2 *pixelLoc)
 {
+<<<<<<< HEAD
   return (*s->check)(s, centerPos, pixelLoc);
+=======
+  (*s->check)(s, centerPos, pixelLoc);
+>>>>>>> 55c2de4f35b28a40060637346c087af332b0e698
 }
 

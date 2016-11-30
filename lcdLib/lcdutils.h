@@ -19,7 +19,11 @@ extern const unsigned int colors[43];
 
 /** Orientation */
 #define LONG_EDGE_PIXELS				160
+<<<<<<< HEAD
 #define SHORT_EDGE_PIXELS				128
+=======
+#define SHORT_EDGE_PIXELS				124
+>>>>>>> 55c2de4f35b28a40060637346c087af332b0e698
 #define ORIENTATION_VERTICAL			0
 #define ORIENTATION_HORIZONTAL			1
 #define ORIENTATION_VERTICAL_ROTATED	2

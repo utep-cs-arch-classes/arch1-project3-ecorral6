@@ -9,7 +9,11 @@ abRectCheck(const AbRect *rect, const Vec2 *centerPos, const Vec2 *pixel)
   int within = 1, axis;
   for (axis = 0; axis < 2; axis ++) {
     int p = pixel->axes[axis];
+<<<<<<< HEAD
     if (p > bounds.botRight.axes[axis] || p < bounds.topLeft.axes[axis])
+=======
+    if (p >= bounds.botRight.axes[axis] || p < bounds.topLeft.axes[axis])
+>>>>>>> 55c2de4f35b28a40060637346c087af332b0e698
       within = 0;
   }
   return within;

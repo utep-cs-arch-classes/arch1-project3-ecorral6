@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 #include <msp430.h>
 #include <libTimer.h>
 #include <lcdutils.h>
 #include <lcddraw.h>
 #include <shape.h>
+=======
+#include "msp430.h"
+#include "libTimer.h"
+#include "lcdutils.h"
+#include "lcddraw.h"
+>>>>>>> 55c2de4f35b28a40060637346c087af332b0e698
 
 #define ARENA_WIDTH 100
 #define ARENA_HEIGHT 50

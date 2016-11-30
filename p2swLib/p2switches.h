@@ -6,6 +6,7 @@
 unsigned int p2sw_read();
 void p2sw_init(unsigned char mask);
 
+<<<<<<< HEAD
 #define SW1 BIT3	      /* switch1 is p1.3 */
 #define SW2 BIT0              // switch is p2.0
 #define SW3 BIT1              // switch is p2.1
@@ -25,4 +26,6 @@ extern char switch_state_down, switch1_state_down, switch2_state_down,
 
 
 
+=======
+>>>>>>> 55c2de4f35b28a40060637346c087af332b0e698
 #endif // included

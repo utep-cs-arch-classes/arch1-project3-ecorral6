@@ -41,8 +41,11 @@ void clearScreen(u_int colorBGR);
  *  \param fgColorBGR Foreground color in BGR
  *  \param bgColorBGR Background color in BGR
  */
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 55c2de4f35b28a40060637346c087af332b0e698
 void drawString5x7(u_char col, u_char row, char *string, 
 		   u_int fgColorBGR, u_int bgColorBGR);
 

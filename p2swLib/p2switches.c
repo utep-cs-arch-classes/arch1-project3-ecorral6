@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 55c2de4f35b28a40060637346c087af332b0e698
 #include <msp430.h>
 #include "p2switches.h"
 
@@ -23,6 +26,10 @@ p2sw_init(unsigned char mask)
   P2IE = mask;      /* enable interrupts from switches */
   P2OUT |= mask;    /* pull-ups for switches */
   P2DIR &= ~mask;   /* set switches' bits for input */
+<<<<<<< HEAD
+=======
+  P2IES |= mask;    
+>>>>>>> 55c2de4f35b28a40060637346c087af332b0e698
 
   switch_update_interrupt_sense();
 }

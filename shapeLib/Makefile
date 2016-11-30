@@ -39,4 +39,8 @@ load2: shapedemo2.elf
 	mspdebug rf2500 "prog $^"
 
 load3: shapedemo3.elf
+<<<<<<< HEAD
 mspdebug rf2500 "prog $^"
+=======
+	mspdebug rf2500 "prog $^"
+>>>>>>> 55c2de4f35b28a40060637346c087af332b0e698
